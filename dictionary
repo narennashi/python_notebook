@@ -1,0 +1,89 @@
+#coding=utf-8
+'''
+Created on 2017年12月6日
+
+@author: Kris wang
+'''
+# 字典举例
+# person = {'first_name': 'zhang', 'last_name': 'san'}
+# print(person['first_name'])
+# print(person['last_name'])
+
+# 字典添加键-值对
+# person = {'first_name': 'zhang', 'last_name': 'san'}
+# person['middle_name'] = 'quan'
+# print(person)
+
+# 修改字典里面元素的值
+# person = {'first_name': 'zhang', 'last_name': 'san'}
+# person['first_name'] = 'zhao'
+# print(person)
+
+# 删除键-值对
+# person = {'first_name': 'zhang', 'last_name': 'san'}
+# del person['last_name']
+# print(person)
+
+# 遍历所有的键-值对
+# person = {
+#     'first_name': 'zhao',
+#     'middle_name': 'quan',
+#     'last_name': 'zhu'
+#     }
+# for key, value in person.items():
+#     print(key + '\t' + value)
+
+# 遍历字典所有的键
+# person = {
+#     'first_name': 'zhao',
+#     'middle_name': 'quan',
+#     'last_name': 'zhu'
+#     }
+# for key in person.keys():
+#     print(key)
+
+# 遍历字典所有的值
+# person = {
+#     'first_name': 'zhao',
+#     'middle_name': 'quan',
+#     'last_name': 'zhu'
+#     }
+# for value in person.values():
+#     print(value)
+
+# 按顺序遍历字典中的所有值
+# person = {
+#     'first_name': 'zhao',
+#     'middle_name': 'quan',
+#     'last_name': 'zhu'
+#     }
+# for value in sorted(person.values()):
+#     print(value)
+
+# 字典列表
+# person_1 = {'name': 'zhao', 'age': 11}
+# person_2 = {'name': 'qian', 'age': 17}
+# person_3 = {'name': 'sun', 'age': 19}
+# people = [person_1, person_2, person_3]
+# for person in people:
+#     print(person)
+
+# 在字典中存储列表
+# person = {
+#     'names': ['zhao', 'tie', 'zhu'],
+#     'age': 10
+#     }
+# for name in person['names']:
+#     print(name)
+# print(person['age'])
+
+# 在字典中存储字典
+# people = {
+#     'person_1': {'name': 'zhao', 'age': 11},
+#     'person_2': {'name': 'qian', 'age': 17},
+#     'person_3': {'name': 'sun', 'age': 19}
+#     }
+# for person in people.values():
+#     for key, value in person.items():
+#         print(key + '\t' + str(value))
+
